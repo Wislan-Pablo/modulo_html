@@ -4,23 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso HTML5 EBAC</title>
+    <title>Curso JAVASCRIPT EBAC - Pablo Souza</title>
 </head>
 
 <body>
-    <h1>Formulário de Cadastro</h1>
-    <form>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" placeholder="informe seu nome...">
+    <h1>Informe os dois números entre 0 a 100.<br />
+        O segundo deve ser maior que o primeiro.</h1>
+    <div id="retorno-mensagem"></div>
+    <form id="formulario-numeros">
+        <label for="number1">Primeiro Número</label>
+        <input type="number" id="number1" min=0 max=100>
         <br />
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" placeholder="Ex: joaquim@hotmail.com">
         <br />
-        <label for="senha">Senha</label>
-        <input type="password" id="senha" name="senha">
+        <label for="number2">Segundo Número:</label>
+        <input type="number" id="number2" min=0 max=100>
         <br />
-        <button type="submit" id="Cadastrar">Enviar</button>
+        <br />
+        <button type="submit" id="enviar">Enviar</button>
     </form>
+    <footer>
+        <span><i>By: Pablo Souza</i></span>
+    </footer>
+    <script src="main.js"></script>
 </body>
 
 </html>
