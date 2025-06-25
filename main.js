@@ -17,7 +17,7 @@ function calculaNumeroMaior(number1, number2) {
         retorno.innerHTML = '<h2>Dados válidos.<br />Cadastro efetuado com sucesso!</h2><h3>----- <i>Aguarde, redirecionando...</i></h3>';
         setTimeout(function () {
             location.reload();
-        }, 3000);
+        }, 3500);
     } else {
         alert('Dados inválidos! Corrija e tente novamente!');
         retorno.innerHTML = ''
